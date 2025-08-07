@@ -1,0 +1,60 @@
+.panel-container {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.panel-container h3 {
+    margin-top: 0;
+    padding-bottom: 8px;
+    margin-bottom: 0; /* Remove extra margin */
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.form-group label {
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.form-group select {
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+.button-group button {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    padding: 5px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.2s;
+}
+
+.button-group button:hover {
+    background-color: #30363d;
+}

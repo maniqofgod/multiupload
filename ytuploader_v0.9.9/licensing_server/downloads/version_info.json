@@ -1,0 +1,30 @@
+{
+    "app_version_info": {
+        "latest_version": "0.9.1",  // <-- PERBARUI DENGAN NOMOR VERSI BARU
+        "changelog": "- Perbaikan bug pada fitur XYZ.\n- Penambahan notifikasi marketing.\n- Peningkatan performa.", // <-- PERBARUI CATATAN PERUBAHAN
+        "download_url_windows": "https://api.soluai.site/downloads/YT_Uploader_v0.9.1.exe", // <-- PERBARUI DENGAN URL DOWNLOAD .EXE BARU
+        "download_url_linux": "https://api.soluai.site/downloads/YT_Uploader_v0.9.1.AppImage", // Contoh untuk platform lain
+        "download_url_darwin": "https://api.soluai.site/downloads/YT_Uploader_v0.9.1.dmg"     // Contoh untuk platform lain
+    },
+    "update_messages": {
+        "update_required_title": "Pembaruan Aplikasi Tersedia!",
+        "update_required_message": "Versi baru ({latest_version}) dari YT Uploader Soluai telah tersedia dan WAJIB diinstal untuk melanjutkan.\nVersi Anda saat ini: {current_version}\n\nPerubahan:\n{changelog}\n\nApakah Anda ingin mengunduh dan menginstal pembaruan sekarang?",
+        "update_rejected_title": "Pembaruan Ditolak",
+        "update_rejected_message": "Pembaruan ke versi terbaru diperlukan untuk menggunakan aplikasi ini. Aplikasi akan ditutup.",
+        "no_update_title": "Versi Terbaru",
+        "no_update_message": "Anda sudah menggunakan versi terbaru dari YT Uploader Soluai ({current_version})."
+    },
+    "other_app_config": {
+        "maintenance_mode": false,
+        "maintenance_title": "Mode Pemeliharaan",
+        "maintenance_message": "Aplikasi sedang dalam pemeliharaan. Silakan coba lagi nanti. Perkiraan selesai: {maintenance_end_time}.",
+        "maintenance_end_time_placeholder": "segera",
+        "startup_message_enabled": false,
+        "startup_message_title": "Pesan dari Soluai",
+        "startup_message_content": "Terima kasih telah menggunakan aplikasi kami!",
+        "startup_message_show_once_per_session": true,
+        "critical_alert_enabled": false,
+        "critical_alert_title": "Pemberitahuan Penting!",
+        "critical_alert_message_content": "Ada pemberitahuan penting terkait layanan kami. Silakan cek website untuk info lebih lanjut."
+    }
+}
